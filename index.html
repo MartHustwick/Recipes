@@ -3,18 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Recipes - Home Page</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <p>
-        <a href="../Recipes/pages/GarlicBread.html">Garlic Bread</a>
-    </p>
-    <p>
-        <a href="../Recipes/pages/BeefStew.html">Beef Stew</a>        
-    </p>
-    <p>
-        <a href="../Recipes/pages/ChickenBurger.html">Chicken Burger</a>        
-    </p>
+    <div class="header">
+        <div>
+            <img class="logo" src="./images/odinprojectlogo.png" alt="Odin Logo">
+        </div>
+        <h1 class="title">Odin Recipes</h1>
+    </div>
+    <div class="recipe-list">
+        <p>
+            <div class="recipe-image-block">
+                <a href="../Recipes/pages/GarlicBread.html">
+                    <img class="image" src="./images/GarlicBread.jpeg" alt="Garlic bread on a wooden board">
+                </a>
+            </div>
+            <p>Garlic Bread</p>
+        </p>
+        <p>
+            <div class="recipe-image-block">
+                <a href="../Recipes/pages/BeefStew.html">
+                    <img class="image" src="./images/BeefStew.jpeg" alt="Beef stew in a bowl">
+                </a>
+            </div>
+            <p>Beef Stew</p>     
+        </p>
+        <p>            
+            <div class="recipe-image-block">
+                <a href="../Recipes/pages/ChickenBurger.html">
+                    <img class="image" src="./images/ChickenBurger.jpeg" alt="Chicken burger clucking away">
+                </a>
+            </div>
+            <p>Chicken Burger</p>                
+        </p>
+    </div>
+    <div>
+        MartHustwick
+    </div>
 </body>
 </html>
