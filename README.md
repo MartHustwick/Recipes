@@ -4,7 +4,7 @@
 
 Training Project 1: Introduction to HTML
 
-[Link to working project](MartHustwick.github.io/Recipes)
+[Link to working project](https://marthustwick.github.io/Recipes/index.html)
 
 
 This was created to get some understanding on the basics of HTML and CSS, I have not implemented flexbox here
